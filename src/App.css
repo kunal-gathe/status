@@ -1,38 +1,152 @@
-.App {
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Lato:ital,wght@1,300&family=Roboto:wght@300&family=Rubik:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Gabarito', cursive;
+}
+.navbar{
+  background-color: #000033;
+  padding: 1.5rem;
+}
+.logo{
+  width: 5%;
+  padding: 1rem 3rem;
+  position: absolute;
+}
+.info{
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.item{
+  list-style: none;
+  padding: 1rem 2rem ;
+}
+.home-icon{
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.bell-icon{
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  background-color: #fff;
+  color: #000033;
+  border-radius: 50%;
+  padding: 0.2rem;
+ margin-left: 2rem;
+}
+.de-active{
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box1{
+  width: 50%;
+  border: 1px solid #000033;
+  padding: 1.5rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  margin: 2rem;
 }
+.heading{
+  margin: 1.5rem 0;
+}
+.flex{
+  display: flex;
+  width: 70%;
+}
+.input-box{
+  margin-right: 1.5rem;
+}
+input{
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+}
+.photo{
+  width: 15%;
+  position: absolute;
+  right: 51rem;
+  top: 14rem;
+  border-radius: 10px;
+}
+
+
+.box2{
+  width: 50%;
+  margin: 5rem 2rem;
+}
+.green-ball{
+  color: green;
+  background-color: green;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-top: 01rem;
+  margin-left: 0.3rem;
+}
+.gray-ball{
+  color: gray;
+  background-color: gray;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.blue-ball{
+  color: #000033;
+  background-color: #000033;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  margin-right: 0.9rem;
+  
+}
+.status{
+  display: flex;
+}
+.progress{
+  margin-top: 1rem;
+}
+.bar{
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+}
+.pb{
+  opacity: 0.5;
+}
+.pi{
+  font-size: 1.5rem;
+}
+ul p{
+  margin-left: 0.7rem;
+}
+
+label{
+  color: #000033;
+}
+
+
+footer{
+  background-color: #000033;
+  padding: 1rem 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.b2-heading{
+  margin: 1rem 0;
+}
+footer p{
+  padding: 0.2rem 0;
+  cursor: pointer;
+}
+
